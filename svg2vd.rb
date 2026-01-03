@@ -1,9 +1,9 @@
 class Svg2vd < Formula
     desc "A tool to convert Scalable Vector Graphics to Android Vector Drawables"
     homepage "https://github.com/jaredh/svg2vd"
-    url "https://github.com/jaredh/svg2vd/releases/download/0.2/svg2vd-0.2.jar"
-    sha256 "6774a9af2b25a839b15d94ac922055a193ad6491ae279e4fa1b1090b1251b480"
-    version "0.2"
+    url "https://github.com/jaredh/svg2vd/releases/download/0.4.0/svg2vd-0.4.0.jar"
+    sha256 "d6253bf857eebc1532d342ee812314155adcd1c86218ef2d75be295d44d6bbf2"
+    version "0.4.0"
   
     def install
       lib.install "svg2vd-#{version}.jar"
